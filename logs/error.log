@@ -1,0 +1,194 @@
+2020/04/27 15:01:41 [notice] 20824#14852: using the "select" event method
+2020/04/27 15:01:41 [notice] 20824#14852: nginx/1.14.1
+2020/04/27 15:01:41 [info] 20824#14852: OS: 260200 build:9200, "", suite:100, type:1
+2020/04/27 15:01:41 [notice] 20824#14852: start worker processes
+2020/04/27 15:01:41 [notice] 20824#14852: start worker process 11020
+2020/04/27 15:01:41 [notice] 11020#12152: nginx/1.14.1
+2020/04/27 15:01:41 [info] 11020#12152: OS: 260200 build:9200, "", suite:100, type:1
+2020/04/27 15:01:41 [notice] 11020#12152: create thread 18660
+2020/04/27 15:01:41 [notice] 11020#12152: create thread 13692
+2020/04/27 15:01:41 [notice] 11020#12152: create thread 20184
+2020/04/27 15:02:16 [error] 11020#18660: *1 CreateFile() "D:\var\nginx-rtmp-win32-dev/html/history/history.css" failed (3: FormatMessage() error:(15100)), client: 127.0.0.1, server: , request: "GET /history/history.css HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2020/04/27 15:02:16 [error] 11020#18660: *1 CreateFile() "D:\var\nginx-rtmp-win32-dev/html/history/history.js" failed (3: FormatMessage() error:(15105)), client: 127.0.0.1, server: , request: "GET /history/history.js HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2020/04/27 15:02:16 [error] 11020#18660: *1 CreateFile() "D:\var\nginx-rtmp-win32-dev/html/favicon.ico" failed (2: FormatMessage() error:(15105)), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2020/04/27 15:02:34 [info] 11020#18660: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2020/04/27 15:02:34 [info] 11020#18660: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2020/04/27 15:02:34 [info] 11020#18660: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2020/04/27 15:02:42 [error] 11020#18660: *1 CreateFile() "D:\var\nginx-rtmp-win32-dev/html/history/history.css" failed (3: FormatMessage() error:(15105)), client: 127.0.0.1, server: , request: "GET /history/history.css HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/index.html"
+2020/04/27 15:02:42 [error] 11020#18660: *1 CreateFile() "D:\var\nginx-rtmp-win32-dev/html/history/history.js" failed (3: FormatMessage() error:(15105)), client: 127.0.0.1, server: , request: "GET /history/history.js HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/index.html"
+2020/04/27 15:02:56 [info] 11020#18660: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2020/04/27 15:04:03 [info] 11020#18660: *6 client connected '192.168.0.4'
+2020/04/27 15:04:03 [info] 11020#18660: *6 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Larix/1.0' swf_url='' tc_url='rtmp://192.168.0.9:1935/live' page_url='' acodecs=1028 vcodecs=128 object_encoding=0, client: 192.168.0.4, server: 0.0.0.0:1935
+2020/04/27 15:04:03 [info] 11020#18660: *6 createStream, client: 192.168.0.4, server: 0.0.0.0:1935
+2020/04/27 15:04:03 [info] 11020#18660: *6 publish: name='demo' args='' type=live silent=0, client: 192.168.0.4, server: 0.0.0.0:1935
+2020/04/27 15:06:16 [error] 11020#18660: *1 CreateFile() "D:\var\nginx-rtmp-win32-dev/html/history/history.css" failed (3: FormatMessage() error:(15105)), client: 127.0.0.1, server: , request: "GET /history/history.css HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/index.html"
+2020/04/27 15:06:16 [error] 11020#18660: *1 CreateFile() "D:\var\nginx-rtmp-win32-dev/html/history/history.js" failed (3: FormatMessage() error:(15105)), client: 127.0.0.1, server: , request: "GET /history/history.js HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/index.html"
+2020/04/27 15:06:17 [error] 11020#18660: *1 CreateFile() "D:\var\nginx-rtmp-win32-dev/html/history/history.css" failed (3: FormatMessage() error:(15105)), client: 127.0.0.1, server: , request: "GET /history/history.css HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/index.html"
+2020/04/27 15:06:17 [error] 11020#18660: *7 CreateFile() "D:\var\nginx-rtmp-win32-dev/html/history/history.js" failed (3: FormatMessage() error:(15105)), client: 127.0.0.1, server: , request: "GET /history/history.js HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/index.html"
+2020/04/27 15:08:35 [info] 11020#18660: *9 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2020/04/27 15:12:12 [info] 11020#18660: *10 client connected '127.0.0.1'
+2020/04/27 15:12:12 [info] 11020#18660: *10 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:12:12 [info] 11020#18660: *10 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:12:12 [info] 11020#18660: *10 play: name='demo' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:14:43 [info] 11020#18660: *6 disconnect, client: 192.168.0.4, server: 0.0.0.0:1935
+2020/04/27 15:14:43 [info] 11020#18660: *6 deleteStream, client: 192.168.0.4, server: 0.0.0.0:1935
+2020/04/27 15:15:12 [info] 11020#18660: *13 client connected '192.168.0.4'
+2020/04/27 15:15:12 [info] 11020#18660: *13 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Larix/1.0' swf_url='' tc_url='rtmp://192.168.0.9:1935/live' page_url='' acodecs=1028 vcodecs=128 object_encoding=0, client: 192.168.0.4, server: 0.0.0.0:1935
+2020/04/27 15:15:12 [info] 11020#18660: *13 createStream, client: 192.168.0.4, server: 0.0.0.0:1935
+2020/04/27 15:15:12 [info] 11020#18660: *13 publish: name='smc' args='' type=live silent=0, client: 192.168.0.4, server: 0.0.0.0:1935
+2020/04/27 15:15:37 [info] 11020#18660: *10 WSARecv() failed (10054: FormatMessage() error:(15105)), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:15:37 [info] 11020#18660: *10 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:15:37 [info] 11020#18660: *10 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:16:02 [info] 11020#18660: *14 client connected '127.0.0.1'
+2020/04/27 15:16:02 [info] 11020#18660: *14 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:16:02 [info] 11020#18660: *14 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:16:02 [info] 11020#18660: *14 play: name='smc' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:16:09 [info] 11020#18660: *12 client timed out (10060: FormatMessage() error:(15105)) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2020/04/27 15:19:16 [notice] 15012#12456: signal process started
+2020/04/27 15:19:16 [notice] 20824#14852: exiting
+2020/04/27 15:19:16 [notice] 11020#12152: gracefully shutting down
+2020/04/27 15:19:16 [notice] 11020#13692: exiting
+2020/04/27 15:19:21 [notice] 20824#14852: exit
+2020/04/27 15:19:27 [notice] 20476#9152: using the "select" event method
+2020/04/27 15:19:27 [notice] 20476#9152: nginx/1.14.1
+2020/04/27 15:19:27 [info] 20476#9152: OS: 260200 build:9200, "", suite:100, type:1
+2020/04/27 15:19:27 [notice] 20476#9152: start worker processes
+2020/04/27 15:19:27 [notice] 20476#9152: start worker process 15896
+2020/04/27 15:19:27 [notice] 15896#1136: nginx/1.14.1
+2020/04/27 15:19:27 [info] 15896#1136: OS: 260200 build:9200, "", suite:100, type:1
+2020/04/27 15:19:27 [notice] 15896#1136: create thread 18964
+2020/04/27 15:19:27 [notice] 15896#1136: create thread 11372
+2020/04/27 15:19:27 [notice] 15896#1136: create thread 12352
+2020/04/27 15:19:28 [info] 15896#18964: *1 client connected '192.168.0.4'
+2020/04/27 15:19:28 [info] 15896#18964: *1 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Larix/1.0' swf_url='' tc_url='rtmp://192.168.0.9:1935/live' page_url='' acodecs=1028 vcodecs=128 object_encoding=0, client: 192.168.0.4, server: 0.0.0.0:1935
+2020/04/27 15:19:28 [info] 15896#18964: *1 createStream, client: 192.168.0.4, server: 0.0.0.0:1935
+2020/04/27 15:19:28 [info] 15896#18964: *1 publish: name='smc' args='' type=live silent=0, client: 192.168.0.4, server: 0.0.0.0:1935
+2020/04/27 15:19:30 [info] 15896#18964: *1 disconnect, client: 192.168.0.4, server: 0.0.0.0:1935
+2020/04/27 15:19:30 [info] 15896#18964: *1 deleteStream, client: 192.168.0.4, server: 0.0.0.0:1935
+2020/04/27 15:19:40 [info] 15896#18964: *4 client connected '192.168.0.4'
+2020/04/27 15:19:40 [info] 15896#18964: *4 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Larix/1.0' swf_url='' tc_url='rtmp://192.168.0.9:1935/live' page_url='' acodecs=1028 vcodecs=128 object_encoding=0, client: 192.168.0.4, server: 0.0.0.0:1935
+2020/04/27 15:19:40 [info] 15896#18964: *4 createStream, client: 192.168.0.4, server: 0.0.0.0:1935
+2020/04/27 15:19:40 [info] 15896#18964: *4 publish: name='smc' args='' type=live silent=0, client: 192.168.0.4, server: 0.0.0.0:1935
+2020/04/27 15:19:47 [info] 15896#18964: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2020/04/27 15:19:56 [info] 15896#18964: *5 client connected '127.0.0.1'
+2020/04/27 15:19:56 [info] 15896#18964: *5 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:19:56 [info] 15896#18964: *5 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:19:56 [info] 15896#18964: *5 play: name='smc' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:20:14 [info] 15896#18964: *5 WSARecv() failed (10054: FormatMessage() error:(15100)), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:20:14 [info] 15896#18964: *5 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:20:14 [info] 15896#18964: *5 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:20:14 [info] 15896#18964: *6 client connected '127.0.0.1'
+2020/04/27 15:20:14 [info] 15896#18964: *6 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:20:14 [info] 15896#18964: *6 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:20:14 [info] 15896#18964: *6 play: name='smc2' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:21:45 [info] 15896#18964: *7 client connected '127.0.0.1'
+2020/04/27 15:21:45 [info] 15896#18964: *7 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:21:45 [info] 15896#18964: *7 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:21:45 [info] 15896#18964: *7 play: name='smc' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:21:57 [info] 15896#18964: *6 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:21:57 [info] 15896#18964: *6 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:21:58 [info] 15896#18964: *8 client connected '127.0.0.1'
+2020/04/27 15:21:58 [info] 15896#18964: *8 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:21:58 [info] 15896#18964: *8 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:21:58 [info] 15896#18964: *8 play: name='smc2' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:22:02 [info] 15896#18964: *8 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:22:02 [info] 15896#18964: *8 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:22:04 [info] 15896#18964: *7 WSARecv() failed (10054: FormatMessage() error:(15105)), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:22:04 [info] 15896#18964: *7 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:22:04 [info] 15896#18964: *7 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:23:52 [info] 15896#18964: *9 client connected '127.0.0.1'
+2020/04/27 15:23:52 [info] 15896#18964: *9 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:23:52 [info] 15896#18964: *9 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:23:52 [info] 15896#18964: *9 play: name='smc' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:24:30 [info] 15896#18964: *12 client connected '127.0.0.1'
+2020/04/27 15:24:31 [info] 15896#18964: *12 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:24:31 [info] 15896#18964: *12 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:24:31 [info] 15896#18964: *12 play: name='smc2' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:24:35 [info] 15896#18964: *13 client connected '127.0.0.1'
+2020/04/27 15:24:35 [info] 15896#18964: *13 connect: app='live/smc2' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://127.0.0.1/live/smc2' tc_url='rtmp://127.0.0.1/live/smc2' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:24:35 [info] 15896#18964: *13 connect: application not found: 'live/smc2', client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:24:35 [info] 15896#18964: *13 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:24:35 [info] 15896#18964: *13 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:25:03 [info] 15896#18964: *14 client connected '127.0.0.1'
+2020/04/27 15:25:03 [info] 15896#18964: *14 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://127.0.0.1/live' tc_url='rtmp://127.0.0.1/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:25:03 [info] 15896#18964: *14 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:25:03 [info] 15896#18964: *14 publish: name='smc2' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:25:07 [info] 15896#18964: *11 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2020/04/27 15:25:17 [info] 15896#18964: *15 client connected '127.0.0.1'
+2020/04/27 15:25:17 [info] 15896#18964: *15 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:25:17 [info] 15896#18964: *15 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:25:17 [info] 15896#18964: *15 play: name='smc2' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:25:30 [info] 15896#18964: *9 WSARecv() failed (10054: FormatMessage() error:(15105)), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:25:30 [info] 15896#18964: *9 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:25:30 [info] 15896#18964: *9 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:25:32 [info] 15896#18964: *15 WSARecv() failed (10054: FormatMessage() error:(15105)), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:25:32 [info] 15896#18964: *15 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:25:32 [info] 15896#18964: *15 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:25:37 [info] 15896#18964: *14 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:25:37 [info] 15896#18964: *14 WSARecv() failed (10053: FormatMessage() error:(15105)), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:25:37 [info] 15896#18964: *14 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:25:37 [info] 15896#18964: *14 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:25:42 [info] 15896#18964: *12 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:25:42 [info] 15896#18964: *12 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:25:44 [info] 15896#18964: *4 disconnect, client: 192.168.0.4, server: 0.0.0.0:1935
+2020/04/27 15:25:44 [info] 15896#18964: *4 deleteStream, client: 192.168.0.4, server: 0.0.0.0:1935
+2020/04/27 15:38:25 [info] 15896#18964: *18 client connected '177.25.149.168'
+2020/04/27 15:38:25 [info] 15896#18964: *18 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Larix/1.0' swf_url='' tc_url='rtmp://smcexterno.ddns.net:1935/live' page_url='' acodecs=1028 vcodecs=128 object_encoding=0, client: 177.25.149.168, server: 0.0.0.0:1935
+2020/04/27 15:38:25 [info] 15896#18964: *18 createStream, client: 177.25.149.168, server: 0.0.0.0:1935
+2020/04/27 15:38:26 [info] 15896#18964: *18 publish: name='smc' args='' type=live silent=0, client: 177.25.149.168, server: 0.0.0.0:1935
+2020/04/27 15:38:40 [info] 15896#18964: *19 client connected '127.0.0.1'
+2020/04/27 15:38:40 [info] 15896#18964: *19 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:38:40 [info] 15896#18964: *19 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:38:40 [info] 15896#18964: *19 play: name='smc' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:38:57 [info] 15896#18964: *18 disconnect, client: 177.25.149.168, server: 0.0.0.0:1935
+2020/04/27 15:38:57 [info] 15896#18964: *18 deleteStream, client: 177.25.149.168, server: 0.0.0.0:1935
+2020/04/27 15:39:11 [info] 15896#18964: *19 WSARecv() failed (10054: FormatMessage() error:(15105)), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:39:11 [info] 15896#18964: *19 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:39:11 [info] 15896#18964: *19 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/04/27 15:39:19 [info] 15896#18964: *17 client timed out (10060: FormatMessage() error:(15105)) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2020/04/27 15:47:41 [info] 15896#18964: *21 client timed out (10060: FormatMessage() error:(15105)) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2020/04/27 17:40:01 [notice] 1800#8668: signal process started
+2020/04/27 17:40:01 [notice] 20476#9152: exiting
+2020/04/27 17:40:01 [notice] 15896#1136: gracefully shutting down
+2020/04/27 17:40:01 [notice] 15896#11372: exiting
+2020/04/27 17:40:01 [notice] 15896#18964: exiting
+2020/04/27 17:40:01 [notice] 15896#1136: exit
+2020/04/27 17:40:01 [notice] 20476#9152: worker process 15896 exited with code 0
+2020/04/27 17:40:01 [notice] 20476#9152: exit
+2020/05/20 23:18:19 [notice] 10972#15996: using the "select" event method
+2020/05/20 23:18:19 [notice] 10972#15996: nginx/1.14.1
+2020/05/20 23:18:19 [info] 10972#15996: OS: 260200 build:9200, "", suite:100, type:1
+2020/05/20 23:18:19 [notice] 10972#15996: start worker processes
+2020/05/20 23:18:19 [notice] 10972#15996: start worker process 11792
+2020/05/20 23:18:19 [notice] 11792#9284: nginx/1.14.1
+2020/05/20 23:18:19 [info] 11792#9284: OS: 260200 build:9200, "", suite:100, type:1
+2020/05/20 23:18:19 [notice] 11792#9284: create thread 2264
+2020/05/20 23:18:19 [notice] 11792#9284: create thread 10912
+2020/05/20 23:18:19 [notice] 11792#9284: create thread 9056
+2020/05/20 23:18:32 [error] 11792#2264: *1 CreateFile() "D:\var\nginx-rtmp-win32-dev/html/favicon.ico" failed (2: FormatMessage() error:(15100)), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/stat"
+2020/05/20 23:18:45 [info] 11792#2264: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2020/05/20 23:18:45 [error] 11792#2264: *1 CreateFile() "D:\var\nginx-rtmp-win32-dev/html/history/history.css" failed (3: FormatMessage() error:(15105)), client: 127.0.0.1, server: , request: "GET /history/history.css HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2020/05/20 23:18:45 [error] 11792#2264: *1 CreateFile() "D:\var\nginx-rtmp-win32-dev/html/history/history.js" failed (3: FormatMessage() error:(15105)), client: 127.0.0.1, server: , request: "GET /history/history.js HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2020/05/20 23:19:03 [info] 11792#2264: *5 client connected '191.189.245.57'
+2020/05/20 23:19:03 [info] 11792#2264: *5 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Larix/1.0' swf_url='' tc_url='rtmp://smcexterno.ddns.net:1935/live' page_url='' acodecs=1028 vcodecs=128 object_encoding=0, client: 191.189.245.57, server: 0.0.0.0:1935
+2020/05/20 23:19:03 [info] 11792#2264: *5 createStream, client: 191.189.245.57, server: 0.0.0.0:1935
+2020/05/20 23:19:03 [info] 11792#2264: *5 publish: name='smc' args='' type=live silent=0, client: 191.189.245.57, server: 0.0.0.0:1935
+2020/05/20 23:19:16 [info] 11792#2264: *6 client connected '127.0.0.1'
+2020/05/20 23:19:16 [info] 11792#2264: *6 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/05/20 23:19:16 [info] 11792#2264: *6 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/05/20 23:19:16 [info] 11792#2264: *6 play: name='smc' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/05/20 23:19:29 [info] 11792#2264: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2020/05/20 23:19:29 [info] 11792#2264: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2020/05/20 23:20:16 [info] 11792#2264: *5 disconnect, client: 191.189.245.57, server: 0.0.0.0:1935
+2020/05/20 23:20:16 [info] 11792#2264: *5 deleteStream, client: 191.189.245.57, server: 0.0.0.0:1935
+2020/05/20 23:21:08 [info] 11792#2264: *8 client timed out (10060: FormatMessage() error:(15105)) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2020/05/21 00:06:31 [info] 11792#2264: *6 WSARecv() failed (10054: FormatMessage() error:(15105)), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/05/21 00:06:31 [info] 11792#2264: *6 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/05/21 00:06:31 [info] 11792#2264: *6 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/07/09 12:02:52 [notice] 11396#12604: using the "select" event method
+2020/07/09 12:02:52 [notice] 11396#12604: nginx/1.14.1
+2020/07/09 12:02:52 [info] 11396#12604: OS: 260200 build:9200, "", suite:100, type:1
+2020/07/09 12:02:52 [notice] 11396#12604: start worker processes
+2020/07/09 12:02:52 [notice] 11396#12604: start worker process 4224
+2020/07/09 12:02:52 [notice] 4224#16228: nginx/1.14.1
+2020/07/09 12:02:52 [info] 4224#16228: OS: 260200 build:9200, "", suite:100, type:1

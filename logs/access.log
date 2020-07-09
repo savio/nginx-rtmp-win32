@@ -1,0 +1,80 @@
+127.0.0.1 - - [27/Apr/2020:15:02:16 -0300] "GET / HTTP/1.1" 200 5859 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:02:16 -0300] "GET /history/history.css HTTP/1.1" 404 571 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:02:16 -0300] "GET /history/history.js HTTP/1.1" 404 571 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:02:16 -0300] "GET /swfobject.js HTTP/1.1" 200 10220 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:02:16 -0300] "GET /favicon.ico HTTP/1.1" 404 571 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:02:34 -0300] "GET /stat HTTP/1.1" 200 635 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:02:34 -0300] "GET /stat.xsl HTTP/1.1" 200 11765 "http://localhost:8080/stat" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:02:42 -0300] "GET /index.html HTTP/1.1" 200 5859 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:02:42 -0300] "GET /history/history.css HTTP/1.1" 404 571 "http://localhost:8080/index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:02:42 -0300] "GET /history/history.js HTTP/1.1" 404 571 "http://localhost:8080/index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:02:50 -0300] "GET /vod.html HTTP/1.1" 200 3162 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:02:50 -0300] "GET /ParsedQueryString.js HTTP/1.1" 200 3066 "http://localhost:8080/vod.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:02:56 -0300] "GET /vod.html?src=rtmp%3A%2F%2F192.168.0.10%2Flive%2Fdemo HTTP/1.1" 200 3162 "http://localhost:8080/vod.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:04:00 -0300] "GET /stat HTTP/1.1" 200 636 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:04:04 -0300] "GET /stat HTTP/1.1" 200 1396 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:04:05 -0300] "GET /stat HTTP/1.1" 200 1396 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:04:06 -0300] "GET /stat HTTP/1.1" 200 1396 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:04:09 -0300] "GET /stat HTTP/1.1" 200 1398 "http://localhost:8080/stat" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:05:21 -0300] "GET /stat HTTP/1.1" 200 1421 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:06:12 -0300] "GET /vod.html?src=rtmp%3A%2F%2F192.168.0.10%2Flive%2Fdemo HTTP/1.1" 304 0 "http://localhost:8080/vod.html?src=rtmp%3A%2F%2F192.168.0.10%2Flive%2Fdemo" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:06:16 -0300] "GET /history/history.css HTTP/1.1" 404 571 "http://localhost:8080/index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:06:16 -0300] "GET /history/history.js HTTP/1.1" 404 571 "http://localhost:8080/index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:06:17 -0300] "GET /index.html HTTP/1.1" 304 0 "http://localhost:8080/vod.html?src=rtmp%3A%2F%2F192.168.0.10%2Flive%2Fdemo" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:06:17 -0300] "GET /history/history.css HTTP/1.1" 404 571 "http://localhost:8080/index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:06:17 -0300] "GET /history/history.js HTTP/1.1" 404 571 "http://localhost:8080/index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:08:13 -0300] "GET /stat HTTP/1.1" 200 1424 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:08:35 -0300] "GET /stat HTTP/1.1" 200 1426 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+192.168.0.4 [27/Apr/2020:15:14:43 -0300] PUBLISH "live" "demo" "" - 97403652 409 "" "FMLE/3.0 (compatible; Larix/1.0" (10m 40s)
+127.0.0.1 - - [27/Apr/2020:15:15:09 -0300] "GET /stat HTTP/1.1" 200 1063 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:15:14 -0300] "GET /stat HTTP/1.1" 200 1816 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:15:15 -0300] "GET /stat HTTP/1.1" 200 1817 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:15:16 -0300] "GET /stat HTTP/1.1" 200 1817 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:15:17 -0300] "GET /stat HTTP/1.1" 200 1817 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:15:17 -0300] "GET /stat HTTP/1.1" 200 1817 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:15:18 -0300] "GET /stat HTTP/1.1" 200 1817 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 [27/Apr/2020:15:15:37 -0300] PLAY "live" "demo" "" - 516 47248101 "" "LNX 9,0,124,2" (3m 24s)
+192.168.0.4 [27/Apr/2020:15:19:30 -0300] PUBLISH "live" "smc" "" - 431532 409 "" "FMLE/3.0 (compatible; Larix/1.0" (1s)
+127.0.0.1 - - [27/Apr/2020:15:19:36 -0300] "GET /stat HTTP/1.1" 200 641 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:19:38 -0300] "GET /stat HTTP/1.1" 200 642 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:19:41 -0300] "GET /stat HTTP/1.1" 200 1398 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:19:43 -0300] "GET /stat HTTP/1.1" 200 1400 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:19:43 -0300] "GET /stat HTTP/1.1" 200 1400 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:19:45 -0300] "GET /stat HTTP/1.1" 200 1401 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:19:45 -0300] "GET /stat HTTP/1.1" 200 1400 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:19:46 -0300] "GET /stat HTTP/1.1" 200 1401 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:19:47 -0300] "GET /stat HTTP/1.1" 200 1402 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:20:02 -0300] "GET /stat HTTP/1.1" 200 1620 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 [27/Apr/2020:15:20:14 -0300] PLAY "live" "smc" "" - 378 4164110 "" "LNX 9,0,124,2" (17s)
+127.0.0.1 [27/Apr/2020:15:21:57 -0300] PLAY "live" "smc2" "" - 368 436 "" "LNX 9,0,124,2" (1m 43s)
+127.0.0.1 [27/Apr/2020:15:22:02 -0300] PLAY "live" "smc2" "" - 368 436 "" "LNX 9,0,124,2" (4s)
+127.0.0.1 [27/Apr/2020:15:22:04 -0300] PLAY "live" "smc" "" - 378 4515465 "" "LNX 9,0,124,2" (19s)
+127.0.0.1 - - [27/Apr/2020:15:24:23 -0300] "GET /stat HTTP/1.1" 200 1637 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:24:24 -0300] "GET /stat HTTP/1.1" 200 1637 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:24:25 -0300] "GET /stat HTTP/1.1" 200 1637 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:24:25 -0300] "GET /stat HTTP/1.1" 200 1637 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:24:25 -0300] "GET /stat HTTP/1.1" 200 1635 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:24:26 -0300] "GET /stat HTTP/1.1" 200 1633 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:24:26 -0300] "GET /stat HTTP/1.1" 200 1635 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:25:07 -0300] "GET /stat HTTP/1.1" 200 2609 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 [27/Apr/2020:15:25:30 -0300] PLAY "live" "smc" "" - 442 24477553 "" "LNX 9,0,124,2" (1m 37s)
+127.0.0.1 [27/Apr/2020:15:25:32 -0300] PLAY "live" "smc2" "" - 388 7786237 "" "LNX 9,0,124,2" (15s)
+127.0.0.1 [27/Apr/2020:15:25:37 -0300] PUBLISH "live" "smc2" "" - 18510288 529 "" "FMLE/3.0 (compatible; FMSc/1.0)" (33s)
+127.0.0.1 [27/Apr/2020:15:25:42 -0300] PLAY "live" "smc2" "" - 428 18510461 "" "LNX 9,0,124,2" (1m 11s)
+192.168.0.4 [27/Apr/2020:15:25:44 -0300] PUBLISH "live" "smc" "" - 93415510 409 "" "FMLE/3.0 (compatible; Larix/1.0" (6m 3s)
+127.0.0.1 - - [27/Apr/2020:15:38:19 -0300] "GET /stat HTTP/1.1" 200 653 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:38:21 -0300] "GET /stat HTTP/1.1" 200 653 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [27/Apr/2020:15:38:26 -0300] "GET /stat HTTP/1.1" 200 1406 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+177.25.149.168 [27/Apr/2020:15:38:57 -0300] PUBLISH "live" "smc" "" - 7598690 409 "" "FMLE/3.0 (compatible; Larix/1.0" (31s)
+127.0.0.1 [27/Apr/2020:15:39:11 -0300] PLAY "live" "smc" "" - 378 4014398 "" "LNX 9,0,124,2" (30s)
+127.0.0.1 - - [27/Apr/2020:15:46:40 -0300] "GET /stat HTTP/1.1" 200 653 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+127.0.0.1 - - [20/May/2020:23:18:32 -0300] "GET /stat HTTP/1.1" 200 635 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36"
+127.0.0.1 - - [20/May/2020:23:18:32 -0300] "GET /stat.xsl HTTP/1.1" 200 11765 "http://localhost:8080/stat" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36"
+127.0.0.1 - - [20/May/2020:23:18:32 -0300] "GET /favicon.ico HTTP/1.1" 404 571 "http://localhost:8080/stat" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36"
+127.0.0.1 - - [20/May/2020:23:18:45 -0300] "GET / HTTP/1.1" 200 5859 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36"
+127.0.0.1 - - [20/May/2020:23:18:45 -0300] "GET /history/history.css HTTP/1.1" 404 571 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36"
+127.0.0.1 - - [20/May/2020:23:18:45 -0300] "GET /history/history.js HTTP/1.1" 404 571 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36"
+127.0.0.1 - - [20/May/2020:23:18:45 -0300] "GET /swfobject.js HTTP/1.1" 200 10220 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36"
+127.0.0.1 - - [20/May/2020:23:20:08 -0300] "GET /stat HTTP/1.1" 200 1636 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36"
+191.189.245.57 [20/May/2020:23:20:16 -0300] PUBLISH "live" "smc" "" - 18831802 409 "" "FMLE/3.0 (compatible; Larix/1.0" (1m 12s)
+127.0.0.1 [21/May/2020:00:06:31 -0300] PLAY "live" "smc" "" - 747 15162827 "" "LNX 9,0,124,2" (47m 15s)
